@@ -1,17 +1,9 @@
-let myName = "Vivek"
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let myName = "Vivek";
 //Interferenceing : Here by default typeScript underStands that myName is going to be a string its whole life
-
 // myName = false
 // Error : Type 'boolean' is not assignable to type 'string'
-
-let myAge:number = 25
+let myAge = 25;
 //Here We Have to specifically mention that myAge variable is going to be a number for its whole life.
-
-/*
-type of annotations
-->Boolean
-->Number
-->String
--> Custom Data Types(will build soon)
-
-*/
+//# sourceMappingURL=interferenceAndAnotation.js.map

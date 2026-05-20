@@ -14,3 +14,22 @@ let apiRequestStatus : "pending" | "success" | "error" = "pending"
 
 let airLineSeat: "aisle" | "window" | "middle" = "middle"
 
+
+const orders = ["12", "20", "28", "42"]
+
+// let currentOrder; //ANY (we have to avoid)
+// let currentOrder:string //Error: Type 'number' is not assignable to type 'string'
+let currentOrder:string | undefined ;
+
+
+for(let order of orders){
+    if(order === "28"){
+        currentOrder = order
+        break
+    }
+
+    currentOrder = "28"
+
+}
+
+console.log(currentOrder)
