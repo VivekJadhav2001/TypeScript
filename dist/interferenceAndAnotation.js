@@ -6,4 +6,12 @@ let myName = "Vivek";
 // Error : Type 'boolean' is not assignable to type 'string'
 let myAge = 25;
 //Here We Have to specifically mention that myAge variable is going to be a number for its whole life.
+/*
+type of annotations
+->Boolean
+->Number
+->String
+-> Custom Data Types(will build soon)
+
+*/
 //# sourceMappingURL=interferenceAndAnotation.js.map
