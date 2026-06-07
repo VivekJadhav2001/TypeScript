@@ -11,6 +11,7 @@ function getChai(kind: string | number){
     return `Chai order no: ${kind}`
 }
 
+//it can be a data type
 function serverChai(msg?:string){
     //if msg is avaliable then
     if(msg){
