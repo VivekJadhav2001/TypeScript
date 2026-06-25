@@ -10,8 +10,8 @@ function makeChai(order: ChaiOrder) {
 makeChai({ type: "normal", sugar: 2, strong: false });
 
 type TeaRecipe = {
-  water: number;
-  milk: number;
+  water: number,
+  milk: number
 };
 
 class MasalaChai implements TeaRecipe {
@@ -21,7 +21,7 @@ class MasalaChai implements TeaRecipe {
 
 /*
 
-will Through Error as we can't implement a class with a defined value catergory type, that why we use interface
+will throw Error as we can't implement a class with a defined value catergory type, that why we use interface
 
 type CupSize = "small" | "large"
 
